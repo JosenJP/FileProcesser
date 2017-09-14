@@ -1,2 +1,8 @@
+H:\Coding\Java\FileProcesser\FileProcesser\src\main\java\com\IFRS\FileProcesser\Readers\BaseReader.java
+H:\Coding\Java\FileProcesser\FileProcesser\src\main\java\com\IFRS\FileProcesser\Readers\ReadType.java
 H:\Coding\Java\FileProcesser\FileProcesser\src\main\java\com\IFRS\FileProcesser\App.java
+H:\Coding\Java\FileProcesser\FileProcesser\src\main\java\com\IFRS\FileProcesser\Readers\IReader.java
+H:\Coding\Java\FileProcesser\FileProcesser\src\main\java\com\IFRS\FileProcesser\Readers\ReaderFactory.java
+H:\Coding\Java\FileProcesser\FileProcesser\src\main\java\com\IFRS\FileProcesser\Readers\JReaderFactory.java
 H:\Coding\Java\FileProcesser\FileProcesser\src\main\java\com\IFRS\FileProcesser\FileProcesser.java
+H:\Coding\Java\FileProcesser\FileProcesser\src\main\java\com\IFRS\FileProcesser\Readers\LineReader.java
