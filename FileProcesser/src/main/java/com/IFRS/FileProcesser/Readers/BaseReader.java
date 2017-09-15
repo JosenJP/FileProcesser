@@ -2,6 +2,7 @@ package com.IFRS.FileProcesser.Readers;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.Reader;
 
 public class BaseReader implements IReader
@@ -31,6 +32,21 @@ public class BaseReader implements IReader
     public void SetLineNumber(int lineNumber)
     {
         
+    }
+    
+    public void Close()
+    {
+        try
+        {
+            if (null != reader)
+            {
+                reader.close();
+            }
+        }
+        catch (IOException ex)
+        {
+            ex.printStackTrace();
+        }
     }
 
     private void GetReader()
