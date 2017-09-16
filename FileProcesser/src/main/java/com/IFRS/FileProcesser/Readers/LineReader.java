@@ -27,6 +27,11 @@ public class LineReader extends BaseReader
         
         try
         {
+            if (null == reader)
+            {
+                return null;
+            }
+            
             LineNumberReader tmpReader = (LineNumberReader)reader;
             
             tmpReader.setLineNumber(lineNumber);
